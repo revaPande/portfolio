@@ -1,0 +1,91 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing : border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #5baa4d;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  header ul {
+    display: flex;
+    gap: 15px;
+  }
+  
+  header a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  header a:hover {
+    color: #000;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  #about, #skills, #projects, #contact {
+    margin-bottom: 20px;
+  }
+ 
+  .skills-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer a {
+    color: #af4ca0;
+    text-decoration: underline;
+  }
+  #about .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between text and image */
+  }
+  
+  #about img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits properly inside the circle */
+    border: 2px solid #4CAF50; /* Optional: Add a border for a polished look */
+  }
+ 
